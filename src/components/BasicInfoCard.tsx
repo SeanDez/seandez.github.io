@@ -11,7 +11,7 @@ export default (props: Props) => {
 
   
   return (
-    <BasicInfoContainer>
+    <OuterContainer>
       <SelfImageContainer>
         <SelfImage src={require("../images/self.jpg")} />
       </SelfImageContainer>
@@ -21,21 +21,22 @@ export default (props: Props) => {
         <p>Check out my projects below. I'm most proud of...</p>
         <p>You can contact me through the form towards the bottom of the page if you'd like to get in touch about something</p>
       </TextContainer>
-    </BasicInfoContainer>
+    </OuterContainer>
   )
 }
 
-const BasicInfoContainer = styled.div`
+const OuterContainer = styled.div`
   border: 2px dotted mediumseagreen;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin: 30px 0;
+  padding: 30px 0;
 `;
 
 const SelfImageContainer = styled.div`
   width: 30vw;
   border: 2px dashed purple;
-  height: auto;
 `;
 
 const SelfImage = styled.img`

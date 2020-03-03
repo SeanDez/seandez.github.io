@@ -1,5 +1,29 @@
-const data = {
-  key1 : 'val1'
-};
+const data = [
+  {
+    image: {
+      url   : 'self.jpg'
+      , alt : 'alt text here'
+    },
+    title : "Title here",
+    subtitle : "subtitle here",
+    body : {
+      main : ["IS Finished Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda excepturi fugiat neque obcaecati porro velit!", "Architecto aut doloribus eius fuga iste, magnam quisquam quod repudiandae, sequi sit suscipit voluptatum."],
+      secondary : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate et hic id minima nam"]
+    },
+    isFinished : true
+  }, {
+    image: {
+      url   : 'self.jpg'
+      , alt : 'alt text here'
+    },
+    title : "Title here",
+    subtitle : "subtitle here",
+    body : {
+      main : ["NOT finished Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda excepturi fugiat neque obcaecati porro velit!", "Architecto aut doloribus eius fuga iste, magnam quisquam quod repudiandae, sequi sit suscipit voluptatum."],
+      secondary : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate et hic id minima nam"]
+    },
+    isFinished : false
+  }
+];
 
 export default data;
