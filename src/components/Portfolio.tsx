@@ -10,6 +10,19 @@ type PortfolioItemData = {
     url : string
     , alt : string
   }
+  links? : {
+    github? : {
+      url : string,
+      descriptor : string
+    }[],
+    gitlab? : {
+      url : string,
+      descriptor
+    }
+    live? : {
+      url : string
+    }
+  }
   , title : string
   , subtitle? : string
   , body : {
