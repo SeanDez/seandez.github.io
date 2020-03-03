@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 import portfolioData from "../data/portFolio";
+import articleData from "../data/article";
 
 import styled from "styled-components";
 
@@ -26,7 +27,7 @@ export default (props: any) => {
       <div id="bodyContainer">
         <BasicInfoCard />
         <Portfolio portfolioData={portfolioData} />
-        <Articles />
+        <Articles articleData={articleData} />
         <Contact />
       </div>
       

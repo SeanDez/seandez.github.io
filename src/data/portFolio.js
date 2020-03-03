@@ -1,7 +1,7 @@
 const data = [
   {
     image: {
-      url   : 'self.jpg'
+      url   : '../images/image_placeholder.jpg'
       , alt : 'alt text here'
     },
     title : "Title here",
@@ -13,7 +13,7 @@ const data = [
     isFinished : true
   }, {
     image: {
-      url   : 'self.jpg'
+      url   : '../images/image_placeholder.jpg'
       , alt : 'alt text here'
     },
     title : "Title here",
